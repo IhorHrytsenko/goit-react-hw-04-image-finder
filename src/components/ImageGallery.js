@@ -24,7 +24,7 @@ function ImageGallery(props) {
     
     const handleOnClick = () => {
         setPage(page + 1);
-        api(queue.props);
+        api(props.queue);
     }
 
     function api(queue = '') {
